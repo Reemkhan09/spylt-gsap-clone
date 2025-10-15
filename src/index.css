@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* @font-face {
+  font-family: 'ProximaNova';
+  src: url('/fonts/7b_Proxima Nova Regular.otf') format('opentype');
+    font-weight: 500;
+  font-style: normal;
+ 
+} */
+
+/* @font-face{
+  font-family: 'TuskerGrotesk';
+  src: url('/fonts/b_TuskerGrotesk-M.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  
+} */
+
+
+html,
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: #faeade;
+ color: #523122;
+font-family: "Antonio", sans-serif;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
+ scrollbar-width: none;
+
+}
+@theme {
+  --color-black: #222123;
+  --color-main-bg: #232224;
+  --color-white: #ffffff;
+  --color-dark-brown: #523122;
+  --color-mid-brown: #a26833;
+  --color-light-brown: #e3a458;
+  --color-red-brown: #7f3b2d;
+  --color-yellow-brown: #a26833;
+  --color-milk-yellow: #e3d3bc;
+  --color-red: #a02128;
+  --color-milk: #faeade;
+ 
+  --font-paragraph: '7b_Proxima Nova', sans-serif;
+}
+
+
+
+
+
+
+
