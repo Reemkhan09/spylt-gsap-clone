@@ -56,7 +56,7 @@ const HeroSection = () => {
         muted
         playsInline
       >
-        <source src="/videos/milkvid2.mp4" type="video/mp4"
+        <source src="./videos/milkvid2.mp4" type="video/mp4"
         />
          </video> 
 

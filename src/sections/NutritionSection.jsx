@@ -64,9 +64,9 @@ const NutritionSection = () => {
 
   return (
     <section className='nutrition-section h-[115dvh] relative overflow-hidden bg-[#e3d3bc]'>
-      <img src="public/svg/curve2.svg" alt="" className='w-full object-cover' />
+      <img src="./svg/curve2.svg" alt="" className='w-full object-cover' />
 
-      <img src="/images/glass.webp" alt="" className='md:w-full w-[100%] md:h-full h-[80vh] md:object-contain object-cover absolute top-4 md:mt-4 mt-[8rem]'/>
+      <img src="./images/glass.webp" alt="" className='md:w-full w-[100%] md:h-full h-[80vh] md:object-contain object-cover absolute top-4 md:mt-4 mt-[8rem]'/>
 
         <div className='flex md:flex-row flex-col justify-between px-6'>
       <div className='relative inline-block md:translate-y-20'>

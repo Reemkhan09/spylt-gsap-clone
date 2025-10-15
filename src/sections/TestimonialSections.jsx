@@ -102,7 +102,7 @@ const tl = gsap.timeline({
             window.innerWidth <= 768 ? {top:0, left: 0, zIndex: index} : {left: `${index *-15}%`, zIndex: index,}}
             onMouseEnter={()=> handlePlay(index)}
            onMouseLeave={() => handlePause(index)} >
-             <video ref={(el) => (vdRef.current[index] = el)} src={card.src} playsInline muted loop  className='w-full h-full object-cover'/>
+             <video ref={(el) => (vdRef.current[index] = el)} src={`${import.meta.env.BASE_URL}${card.src}`} playsInline muted loop  className='w-full h-full object-cover'/>
            </div>
            )
          

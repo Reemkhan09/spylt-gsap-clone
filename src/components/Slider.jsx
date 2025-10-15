@@ -70,11 +70,11 @@ const Slider = () => {
           flavourlists.map((flavour) => {
             return (
               <div key={flavour.name} className={`relative z-30 lg:w-[50vw] w-[80vw] lg:h-[80vh] md:w-[90vw] h-80 mb-60 ${flavour.rotation}`}>
-                <img src={`/svg/${flavour.color}-bg.svg`} alt="background" className='absolute bottom-0' />
+                <img src={`${import.meta.env.BASE_URL}svg/${flavour.color}-bg.svg`} alt="background" className='absolute bottom-0' />
 
-                <img src={`/images/${flavour.color}.webp`} alt="bottle" className='absolute left-[50%] -translate-x-1/2 bottom-0 md:h-full h-[68vh]'/>
+                <img src={`${import.meta.env.BASE_URL}images/${flavour.color}.webp`} alt="bottle" className='absolute left-[50%] -translate-x-1/2 bottom-0 md:h-full h-[68vh]'/>
 
-                <img src={`/images/${flavour.color}-element.webp`} alt="" className='absolute md:top-0 md:bottom-auto bottom-10 w-full'/>
+                <img src={`${import.meta.env.BASE_URL}images/${flavour.color}-element.webp`} alt="" className='absolute md:top-0 md:bottom-auto bottom-10 w-full'/>
 
                 <h1 className='absolute md:bottom-8 md:left-10 bottom-5 left-5 text-[#faeade] md:text-4xl text-3xl font-semibold uppercase tracking-tighter'>{flavour.name}</h1>
               </div>

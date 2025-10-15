@@ -3,7 +3,7 @@ import { FaYoutube, FaInstagram, FaTiktok, FaArrowRight } from "react-icons/fa";
 
 const FooterSection = () => {
   return (
-    <section className='h-[130vh] bg-[#232224] relative'>
+    <section className='md:h-[130vh] bg-[#232224] relative'>
         <div className='overflow-hidden z-10'>
           <h1 className='footer-title uppercase text-[#faeade] text-center md:text-[7rem] text-[5rem] font-bold md:mt-[7rem] mt-[2rem]'>#chugresponsibly</h1>
 

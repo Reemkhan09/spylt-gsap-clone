@@ -47,8 +47,8 @@ const FinalSection = () => {
   
   return (
     <section className='final md:h-[140dvh] h-[70dvh] relative overflow-hidden bg-[#222123]'>
-      <img src="/svg/curve.svg" alt="curve" className="w-full object-cover md:-translate-y-15 -translate-y-5" />
-      <div className='md:h-[130vh] h-[50vh] relative md:pt-[20vh] bg-[url(/svg/footerbg.svg)] md:bg-cover bg-center bg-no-repeat w-full'>
+      <img src="./svg/curve.svg" alt="curve" className="w-full object-cover md:-translate-y-15 -translate-y-5" />
+      <div className='md:h-[130vh] h-[50vh] relative md:pt-[20vh] bg-[url(./svg/footerbg.svg)] md:bg-cover bg-center bg-no-repeat w-full'>
         <div className='left-side flex flex-col justify-start ml-[8vw] relative'>
          <h1 className='first uppercase md:text-[8vw] text-[12vw] text-[#e9ddcd] font-bold tracking-tighter w-fit max-w-[100vw] md:ml-[6vw]'>right around</h1>
          <div style={{clipPath:"polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)"}} className="second absolute top-[35%] rotate-[3deg] z-10">
